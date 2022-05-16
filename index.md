@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# SNL XR Training Team - `STTK`
 
-You can use the [editor on GitHub](https://github.com/sandialabs/STTK/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Introduction
+The `Sequential Training ToolKit` (`STTK`) is a software toolkit Plugin for the [Unity Development Platform](https://unity.com/) so software developers can easily develop structured sequential training applications for Gaming and Extended Reality (XR) environments based on Bloom's Learning Methodology.  This is designed to be the centralized documentation for the SNL XR Training Team collaboration effort encompassing the `STTK` project.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Project
+Please refer to the `README.md` in each branch for a specific brief summary
+  - https://github.com/sandialabs/STTK/
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Gratitude
+We greatly appreciate the time taken over the years to collaborate and develop with the SNL XR Training Team (XRSS and XR@Z). Look forward to future collaboration with any interested parties
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Communication
+  - [Nadine E. Miner](mailto:neminer@sandia.gov)
+  - [Brandon T. Klein](mailto:btklein@sandia.gov)
+  - [Shane Bramley](mailto:smbraml@sandia.gov)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Bugs, Issues, Feedback
+For bugs, issues, questions, and discussions please use GitHub Issues for the `STTK` project located [here](https://github.com/sandialabs/STTK/issues).
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Resources
 
-### Jekyll Themes
+[`AR Training Approaches and Considerations` Presentation](https://www.osti.gov/biblio/1643487): <br>
+Miner, Nadine E. *AR Training Approaches and Considerations*. Sandia National Laboratories Extended Reality Conference 2019. SAND2019-14850 C
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sandialabs/STTK/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[`Extended Reality for Enhanced Training and Knowledge Capture` Paper](https://www.modsimworld.org/papers/2020/MODSIM_2020_paper_44_.pdf): <br>
+Klein, Brandon T. and Miner, Nadine E. *Extended Reality for Enhanced Training and Knowledge Capture*. ModSim World 2020. SAND2020-2361 C
 
-### Support or Contact
+[`Sequential Training ToolKit (STTK)` Presentation](https://www.osti.gov/biblio/1845619-sequential-training-toolkit-sttk): <br>
+Miner, Nadine E., Klein, Brandon Thorin, Bramley, Shane Michael, and Rubin, Alexis. *Sequential Training ToolKit (STTK)*. United States: N. p., 2021. Web. doi:10.2172/1845619.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[`XR@Z`Presentation](https://www.osti.gov/biblio/1643569-xr): <br>
+Klein, Brandon T. *XR@Z*. Sandia National Laboratories Extended Reality Conference 2019. SAND2019-14388 C 
