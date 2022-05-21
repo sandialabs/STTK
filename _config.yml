@@ -1,1 +1,9 @@
 remote_theme: just-the-docs/just-the-docs
+
+title: STTK - Sequential Training ToolKit
+tagline: STTK | Sequential Training ToolKit
+description: Sequential Training ToolKit (STTK) | software toolkit for developers to easily create structured sequential training applications for Gaming and XR
+url: https://sandialabs.github.io
+author: 
+  name: Nadine E. Miner, Brandon T. Klein, Shane Bramley
+logo: https://user-images.githubusercontent.com/64920723/169656728-ca3dc89a-2650-4a9f-9655-65259025dc1b.png
