@@ -1,9 +1,7 @@
 # `Sequential Training ToolKit` - `STTK`
 
----
-|<!-- Default --><img src="https://user-images.githubusercontent.com/64920723/169656728-ca3dc89a-2650-4a9f-9655-65259025dc1b.png" width="480" height="300" /> 
-|<!-- Alternate --><img src="https://user-images.githubusercontent.com/64920723/169656990-350e4073-9bcc-4035-82e7-93a0e25e8f27.png" width="480" height="300" />
----
+| <!-- Default --><img src="https://user-images.githubusercontent.com/64920723/169656728-ca3dc89a-2650-4a9f-9655-65259025dc1b.png" width="480" height="300" />         | <!-- Alternate --><img src="https://user-images.githubusercontent.com/64920723/169656990-350e4073-9bcc-4035-82e7-93a0e25e8f27.png" width="480" height="300" />          |
+|:-------------|:------------------|
 
 ## Introduction
 The `Sequential Training ToolKit` (`STTK`) is a software toolkit Plugin for the [Unity Development Platform](https://unity.com/) so software developers can easily develop structured sequential training applications for Gaming and Extended Reality (XR) environments based on Bloom's Learning Methodology.  This is designed to be the centralized documentation for the SNL XR Training Team collaboration effort encompassing the `STTK` project.
