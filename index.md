@@ -1,9 +1,6 @@
 # `Sequential Training ToolKit` - `STTK`
 
-<p float="left">
-  <!-- Default --><img src="https://user-images.githubusercontent.com/64920723/169656728-ca3dc89a-2650-4a9f-9655-65259025dc1b.png" width="480" height="300" />
-  <!-- Alternate --><img src="https://user-images.githubusercontent.com/64920723/169656990-350e4073-9bcc-4035-82e7-93a0e25e8f27.png" width="480" height="300" />
-</p>
+<img src="https://user-images.githubusercontent.com/64920723/169656728-ca3dc89a-2650-4a9f-9655-65259025dc1b.png" width="480" height="300" />
 
 ## Introduction
 The `Sequential Training ToolKit` (`STTK`) is a software toolkit Plugin for the [Unity Development Platform](https://unity.com/) so software developers can easily develop structured sequential training applications for Gaming and Extended Reality (XR) environments based on Bloom's Learning Methodology.  This is designed to be the centralized documentation for the SNL XR Training Team collaboration effort encompassing the `STTK` project.
@@ -48,3 +45,9 @@ Klein, Brandon T. *XR@Z*. Sandia National Laboratories Extended Reality Conferen
 Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.
 
 ![image](https://user-images.githubusercontent.com/64920723/169654799-c4953858-6aee-47ca-b74c-332af2ed6323.png)
+
+<p float="left">
+<!-- Default --><img src="https://user-images.githubusercontent.com/64920723/169656728-ca3dc89a-2650-4a9f-9655-65259025dc1b.png" width="240" height="150" />
+<!-- Alternate --><img src="https://user-images.githubusercontent.com/64920723/169656990-350e4073-9bcc-4035-82e7-93a0e25e8f27.png" width="240" height="150" />
+</p>
+
