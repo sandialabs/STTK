@@ -1,6 +1,7 @@
 # `Sequential Training ToolKit` - `STTK`
 
-| <!-- Default --><img src="https://user-images.githubusercontent.com/64920723/169656728-ca3dc89a-2650-4a9f-9655-65259025dc1b.png" width="480" height="300" />         | <!-- Alternate --><img src="https://user-images.githubusercontent.com/64920723/169656990-350e4073-9bcc-4035-82e7-93a0e25e8f27.png" width="480" height="300" />          |
+
+| <!-- Default --><img src="https://user-images.githubusercontent.com/64920723/169656728-ca3dc89a-2650-4a9f-9655-65259025dc1b.png" width="480" height="300" />| <!-- Alternate --><img src="https://user-images.githubusercontent.com/64920723/169656990-350e4073-9bcc-4035-82e7-93a0e25e8f27.png" width="480" height="300" />|
 |:-------------|:------------------|
 
 ## Introduction
