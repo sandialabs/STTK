@@ -65,13 +65,13 @@ learning should model Bloom's Learning Methodology.
 
 ### 2. Utilize `STTK` and `MenuFramework`
 
-#### 2.1 - Use the `SeqTrainingFramework` Scene
+#### 2.1 - Use the `SequentialTrainingFramework` Scene
 
 >**Note:** Requires Importing in the `STTK_V*.unitypackage` and the `STTK_V*_with_Plugins.unitypackage`
 > `*` indicates placeholder for version number
 
 1. Now you need to open the SequentialTrainingFramework including the `STTK` and the [`MenuFramework`](https://github.com/sandialabs/MenuFramework)
-1. This will be a scene located in **AddOns** -> **Scenes** -> **SeqTrainingFramework**
+1. This will be a scene located in **STTK** -> **AddPlugins** -> **Scenes** -> **SequentialTrainingFramework**
 1. Select the `SequentialTrainingToolKit` Object in your Hierarchy
 1. In the **Inspector**
    - Notice the `Demo`, `Teach`, and `Test` tabs

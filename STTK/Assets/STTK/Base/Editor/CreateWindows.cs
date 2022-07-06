@@ -30,9 +30,9 @@ public class CreateWindows : EditorWindow
         GUILayout.Label(image);
         var group = EditorGUILayout.BeginFadeGroup(3f);
         GUILayout.Label("Getting Started with Sequential Training ToolKit (STTK): ", EditorStyles.boldLabel);
-        GUILayout.Label("1. Add a SeqManager");
-        GUILayout.Label("2. Add an MRTK setup");
-        GUILayout.Label("3. Add MenuSystem prefab");
+        GUILayout.Label("1. Make sure your project is configured properly by selecting Mixed Reality -> Toolkit -> Utilities -> Configure project for MRTK", EditorStyles.wordWrappedLabel);
+        GUILayout.Label("2. Add MRTK to scene by selecting Mixed Reality -> Toolkit -> Add to scene and configure", EditorStyles.wordWrappedLabel);
+        GUILayout.Label("3. Add MenuFramework, IOManager and SequentialTrainingFramework gameobjects by selecting STTK -> Add components -> Add each of the sub items", EditorStyles.wordWrappedLabel);
         GUILayout.Label("For additional information on STTK, visit us at https://github.com/sandialabs/sttk" , EditorStyles.wordWrappedLabel);
         GUILayout.Label("Sandia National Laboratories is a multimission laboratory managed and operated by National Technology and Engineering Solutions"
             + " of Sandia, LLC., a wholly owned subsidiary of Honeywell International, Inc., for the U.S. Department of Energy's National Nuclear Security"

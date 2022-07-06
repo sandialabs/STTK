@@ -71,18 +71,27 @@ public class STTKCustomInspector : Editor
                 newModel.objectReferenceValue = null;
                 var foldout = addedElement.FindPropertyRelative("foldout");
                 var sections = addedElement.FindPropertyRelative("sections");
-                if (!GameObject.Find("Training List"))
+                if (!GameObject.Find("SceneButtons"))
                 {
-                    GameObject trainingListObject = new GameObject("Training List");
+                    GameObject trainingListObject = new GameObject("SceneButtons");
                 }
-                if (STTK.prefabButton && GameObject.Find("Training List"))
+                if (STTK.prefabButton && GameObject.Find("SceneButtons"))
                 {
                     GameObject button = Instantiate(STTK.prefabButton);
-                    button.transform.SetParent(GameObject.Find("Training List").transform);
+                    button.transform.SetParent(GameObject.Find("SceneButtons").transform);
                     button.name = "Scene " + (list.count);
-                    button.GetComponent<RectTransform>().localRotation = new Quaternion(0f, 0f, 0f, 0f);
-                    button.GetComponent<RectTransform>().localScale = new Vector3(5f, 5f, 0);
-                    button.GetComponent<RectTransform>().localPosition = new Vector3(button.GetComponent<RectTransform>().localPosition.x, button.GetComponent<RectTransform>().localPosition.y, 0f);
+                    if (button.GetComponent<RectTransform>())
+                    {
+                        button.GetComponent<RectTransform>().localRotation = new Quaternion(0f, 0f, 0f, 0f);
+                        button.GetComponent<RectTransform>().localScale = new Vector3(5f, 5f, 0);
+                        button.GetComponent<RectTransform>().localPosition = new Vector3(button.GetComponent<RectTransform>().localPosition.x, button.GetComponent<RectTransform>().localPosition.y, 0f);
+                    }
+                    if (button.GetComponent<Transform>())
+                    {
+                        button.GetComponent<Transform>().localRotation = new Quaternion(0f, 0f, 0f, 0f);
+                        button.GetComponent<Transform>().localScale = new Vector3(7800f, 4400f, 4f);
+                        button.GetComponent<Transform>().localPosition = new Vector3(-1400f, -1000f, 0f);
+                    }
                 }
                 else
                     Debug.Log("Missing Button Prefab, no button prefab has been generated");
@@ -139,7 +148,7 @@ public class STTKCustomInspector : Editor
         sceneIndex = index;
         EditorGUI.indentLevel++;
         {
-            foldout.boolValue = EditorGUI.Foldout(new Rect(position.x + 4, position.y, 16, EditorGUIUtility.singleLineHeight), foldout.boolValue, foldout.boolValue ? "" : visibleSceneName.stringValue, true);
+            foldout.boolValue = EditorGUI.Foldout(new Rect(position.x + 6, position.y, 16, EditorGUIUtility.singleLineHeight), foldout.boolValue, foldout.boolValue ? "" : visibleSceneName.stringValue, true);
 
             if (foldout.boolValue)
             {
@@ -191,18 +200,27 @@ public class STTKCustomInspector : Editor
                             var newInspector = addedElement.FindPropertyRelative("rightInspectorObject");
 
                             newInspector.objectReferenceValue = CreateInstance(typeof(RightInspectorObject));
-                            if (!GameObject.Find("MainMenuButtons"))
+                            if (!GameObject.Find("SectionButtons"))
                             {
-                                GameObject mainMenuButtons = new GameObject("MainMenuButtons");
+                                GameObject mainMenuButtons = new GameObject("SectionButtons");
                             }
-                            if (STTK.prefabButton && GameObject.Find("MainMenuButtons"))
+                            if (STTK.prefabButton && GameObject.Find("SectionButtons"))
                             {
                                 GameObject button = Instantiate(STTK.prefabButton);
-                                button.transform.SetParent(GameObject.Find("MainMenuButtons").transform);
+                                button.transform.SetParent(GameObject.Find("SectionButtons").transform);
                                 button.name = "Section " + (list.count);
-                                button.GetComponent<RectTransform>().localRotation = new Quaternion(0f, 0f, 0f, 0f);
-                                button.GetComponent<RectTransform>().localScale = new Vector3(5f, 5f, 0);
-                                button.GetComponent<RectTransform>().localPosition = new Vector3(button.GetComponent<RectTransform>().localPosition.x, button.GetComponent<RectTransform>().localPosition.y, 0f);
+                                if (button.GetComponent<RectTransform>())
+                                {
+                                    button.GetComponent<RectTransform>().localRotation = new Quaternion(0f, 0f, 0f, 0f);
+                                    button.GetComponent<RectTransform>().localScale = new Vector3(5f, 5f, 0);
+                                    button.GetComponent<RectTransform>().localPosition = new Vector3(button.GetComponent<RectTransform>().localPosition.x, button.GetComponent<RectTransform>().localPosition.y, 0f);
+                                }
+                                if (button.GetComponent<Transform>())
+                                {
+                                    button.GetComponent<Transform>().localRotation = new Quaternion(0f, 0f, 0f, 0f);
+                                    button.GetComponent<Transform>().localScale = new Vector3(7800f, 4400f, 4f);
+                                    button.GetComponent<Transform>().localPosition = new Vector3(-1400f, -1000f, 0f);
+                                }
                             }
                             else
                                 Debug.Log("Missing Button Prefab, no button prefab has been generated");
@@ -249,7 +267,7 @@ public class STTKCustomInspector : Editor
 
         sectionIndex = list.index;
         {
-            foldout.boolValue = EditorGUI.Foldout(new Rect(position.x + 6, position.y, 16, EditorGUIUtility.singleLineHeight), foldout.boolValue, foldout.boolValue ? " " : sectionName.stringValue, true);
+            foldout.boolValue = EditorGUI.Foldout(new Rect(position.x + 7, position.y, 16, EditorGUIUtility.singleLineHeight), foldout.boolValue, foldout.boolValue ? " " : sectionName.stringValue, true);
 
             if (foldout.boolValue)
             {

@@ -1,12 +1,14 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor.Animations;
+using UnityEditor;
 
 public class CreateSM : MonoBehaviour
 {
     public static void CreateStateMachineController()
     {
-        SequentialTrainingToolKit gameManager = GameObject.Find("SequentialTrainingToolkit").GetComponent(typeof(SequentialTrainingToolKit)) as SequentialTrainingToolKit;
+        AddTestItemTag();
+        SequentialTrainingToolKit gameManager = GameObject.Find("SequentialTrainingToolKit").GetComponent(typeof(SequentialTrainingToolKit)) as SequentialTrainingToolKit;
 
         List<Scene> sceneList = gameManager.GetSceneList();
 
@@ -24,17 +26,17 @@ public class CreateSM : MonoBehaviour
             controller.AddParameter("Reset_Demo_Animation", AnimatorControllerParameterType.Bool);
             controller.AddParameter("Play_Teach_Animation", AnimatorControllerParameterType.Bool);
             controller.AddParameter("Reset_Teach_Animation", AnimatorControllerParameterType.Bool);
-            
+
             if (sceneList[s].sections.Count > 0)
             {
                 for (int st = 0; st < sceneList[s].sections.Count; st++)
                 {
                     var rootStateMachine = controller.layers[0].stateMachine;
                     var stateMachineSection = rootStateMachine.AddStateMachine(sceneList[s].sections[st].sectionName);
-                    var stateMachineDemo = stateMachineSection.AddStateMachine("Demo"+st);
-                    var stateMachineTeach = stateMachineSection.AddStateMachine("Teach"+st);
-                    var origin = stateMachineDemo.AddState("Origin"+st);
-                    var idle = stateMachineTeach.AddState("Idle"+st);
+                    var stateMachineDemo = stateMachineSection.AddStateMachine("Demo" + st);
+                    var stateMachineTeach = stateMachineSection.AddStateMachine("Teach" + st);
+                    var origin = stateMachineDemo.AddState("Origin" + st);
+                    var idle = stateMachineTeach.AddState("Idle" + st);
                     if (sceneList[s].sections[st].rightInspectorObject.Teach.Count > 0)
                     {
                         AnimatorState previousState = null;
@@ -110,5 +112,36 @@ public class CreateSM : MonoBehaviour
                 }
             }
         }
+    }
+    public static void AddTestItemTag()
+    {
+        // Open tag manager
+        SerializedObject tagManager = new SerializedObject(AssetDatabase.LoadAllAssetsAtPath("ProjectSettings/TagManager.asset")[0]);
+        SerializedProperty tagsProp = tagManager.FindProperty("tags");
+
+        // For Unity 5 we need this too
+        SerializedProperty layersProp = tagManager.FindProperty("layers");
+
+        // Adding a Tag
+        string s = "TestItem";
+
+        // First check if it is not already present
+        bool found = false;
+        for (int i = 0; i < tagsProp.arraySize; i++)
+        {
+            SerializedProperty t = tagsProp.GetArrayElementAtIndex(i);
+            if (t.stringValue.Equals(s)) { found = true; break; }
+        }
+
+        // if not found, add it
+        if (!found)
+        {
+            tagsProp.InsertArrayElementAtIndex(0);
+            SerializedProperty n = tagsProp.GetArrayElementAtIndex(0);
+            n.stringValue = s;
+            Debug.Log("TestItem tag Added!");
+        }
+
+        tagManager.ApplyModifiedProperties();
     }
 }

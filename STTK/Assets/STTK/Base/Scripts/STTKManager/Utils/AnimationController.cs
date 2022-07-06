@@ -16,7 +16,7 @@ public class AnimationController : MonoBehaviour
     private void Awake()
     {
         setDemoList = false;
-        sttk = GameObject.Find("SequentialTrainingToolkit").GetComponent(typeof(SequentialTrainingToolKit)) as SequentialTrainingToolKit;
+        sttk = GameObject.Find("SequentialTrainingToolKit").GetComponent(typeof(SequentialTrainingToolKit)) as SequentialTrainingToolKit;
         Demonstrate = sttk.GetDemonstrateLists();
         Teach = sttk.GetTeachLists();
         setDemoList = sttk.setDemoList;

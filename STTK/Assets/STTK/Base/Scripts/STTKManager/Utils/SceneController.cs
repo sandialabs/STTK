@@ -20,7 +20,7 @@ public class SceneController : MonoBehaviour
 
     private void Awake()
     {
-        sttk = GameObject.Find("SequentialTrainingToolkit").GetComponent(typeof(SequentialTrainingToolKit)) as SequentialTrainingToolKit;
+        sttk = GameObject.Find("SequentialTrainingToolKit").GetComponent(typeof(SequentialTrainingToolKit)) as SequentialTrainingToolKit;
     }
 
     private void Start()
