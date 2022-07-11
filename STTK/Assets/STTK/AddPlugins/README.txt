@@ -1,1 +1,0 @@
-Manage third party plugins/packages, and custom scripts in this directory. 
