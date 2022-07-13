@@ -130,3 +130,124 @@ To run the animations that were just added to the sequence list (in the previous
    - **Test** (`Timer` Object)
      - `StartTimer()`
      - `StopTimer()`
+
+---
+
+## V8 Engine Training Example Text
+Start Text: Welcome to V8 Engine Training
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Section 1 (Exhaust manifold) Animation Text:
+
+- Demo, this section will show you how the section 1 exhuast manifold is assembled on the V8 Engine
+- Teach, this section will teach you how to assemble and install the exhaust manifold on to the V8 Engine
+- This completes section 1 exhaust manifold of the V8 engine training
+- Test, this section will test your skills on section 1 exhaust manifold of the V8 Engine training
+
+- Animation_1:
+  - Line up the exhaust manifold one to the bottom of the engine
+  - Line up the exhaust manifold one to the bottom of the engine
+
+- Animation_2-18:
+  - Add bolt <bolt number> to the exhaust manifold
+  - Add bolt 1 to the exhaust manifold
+
+- Animation_19:
+  - Rotate the engine to show the other exhaust manifold
+  - Rotate the engine to show the other exhaust manifold
+
+- Animation_20:
+  - Line up the exhaust manifold two to the bottom of the engine
+  - Line up the exhaust manifold two to the bottom of the engine
+
+- Animation_21:
+  - Rotate the V8 Engine back to its original view
+  - Rotate the V8 Engine back to its original view
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Section 2 (Power Steering Pump) Animation Text:
+
+- Demo, this section will show you how to assemble and install the power steering pump on to the V8 Engine
+- Teach, this section will teach you how to assemble and install the power steering pump on to the V8 Engine
+- This completes section two Power Steering installation of the V8 engine training
+- Test, this section will test your skills on section 2 power steering of the V8 Engine training
+
+
+- Animation_1
+  - Begin with locating the bolt stems lon the bottom side of the engine and slide the power steering pump onto the bolt stems
+  - Begin with locating the bolt stems lon the bottom side of the engine and slide the power steering pump onto the bolt stems
+
+- Animation_2
+  - Locate hex nut grade 2 and screw this onto the left side power steering pump bolt stem
+  - Locate hex nut gradec_iso 2 and screw this onto the left side power steering pump bolt stem
+
+- Animation_3
+  - Locate hex nut grade 3 and screw this onto the  left side power steering pump bolt stem
+  - Locate hex nut gradec_iso 3 and screw this onto the  left side power steering pump bolt stem
+
+- Animation_4
+  - Now rotate the V8 engine 90 degrees to show the front of the engine
+  - Now rotate the V8 engine 90 degrees to show the front of the engine
+
+- Animation_5
+  - Place the power steering pump pulley 1 baring on the power steering pump and rotate to screw the baring on on to the pump
+  - Place the Power_steering_pump_pulley-1 baring on the power steering pump and rotate to screw the baring on on to the pump
+
+- Animation_6
+  - Now loosen the belt tensioner and add the serpentine belt
+  - Now loosen the belt tensioner and add the serpentine belt
+
+- Animation_7
+  - Rotate the V8 engine 90 degrees back to its original state
+  - Rotate the V8 engine 90 degrees back to its original state
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Section 3 (Spark Plugs) Animation Text:
+
+- Demo, this section will show you how to assemble and install the V8 Engine spark plugs
+- Teach, this section will teach you how to assemble and install the spark plugs on to the V8 Engine
+- This completes section three spark plugs installation of the V8 engine training
+- Test, this section will test your skills on section three, spark plugs on the V8 Engine training
+
+- Animation 1
+  - Insert spark plug one into the cylinder head
+  - Insert spark plug one into the cylinder head
+
+- Animation 2
+  - Place ignition coil one on to the spark plug and push down 
+  - Place ignition coil one on to the spark plug and push down
+
+- Animation 3
+  - Insert spark plug four into the cylinder head
+  - Insert spark plug four into the cylinder head
+
+- Animation 4
+  - Place ignition coil four on to the spark plug and push down 
+  - Place ignition coil four on to the spark plug and push down 
+
+- Animation 5
+  - Rotate the engine model to the other side
+  - Rotate the engine model to the other side
+
+- Animation 6
+  - Insert spark plug five into the cylinder head
+  - Insert spark plug five into the cylinder head
+
+- Animation 7
+  - Place ignition coil five on to the spark plug and push down 
+  - Place ignition coil five on to the spark plug and push down 
+
+- Animation 8
+  - Insert spark plug eight into the cylinder head
+  - Insert spark plug eight into the cylinder head
+
+- Animation 9
+  - Place ignition coil eight on to the spark plug and push down
+  - Place ignition coil five on to the spark plug and push down 
+
+- Animation 10
+  - Rotate the engine model back to its original state
+  - Rotate the engine model back to its original state
+ 
