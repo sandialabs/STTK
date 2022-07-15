@@ -134,7 +134,10 @@ To run the animations that were just added to the sequence list (in the previous
 ---
 
 ## V8 Engine Training Example Text
-Start Text: Welcome to V8 Engine Training
+**Note: If you are using the default scene given in the V8_Engine_STTK.unitypackage make sure to click on the create state machine button in the STTK gameobject inspector script first before playing as the scene is configured to work but the state machine needs to be built and added to the resources folder for the animation to work.**
+
+
+Start Text: Welcome to the V8 Engine Training
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Section 1 (Exhaust manifold) Animation Text:
