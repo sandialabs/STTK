@@ -6,13 +6,13 @@ nav_order: 2
 ---
 
 # `STTK` AddPlugins Scripts and Methods
-The `AddPlugins` scripts for `STTK`, manage third party plugins/packages, and custom scripts with accompanying methods.  The `AddPlugins` scripts and methods for `STTK` are to be placed within **STTK/Assets/ExTK/AddPlugins/** directory path.  
+The `AddPlugins` scripts for `STTK`, manage third party plugins/packages, and custom scripts with accompanying methods.  The `AddPlugins` scripts and methods for `STTK` are to be placed within **STTK/Assets/STTK/AddPlugins/** directory path.  
 
 <br>
 
 
 ## MenuFramework Scripts
-Please see our provided [ExTK with Plugins Package](https://github.com/sandialabs/STTK/blob/STTK-V1-with-Plugins/STTK_V1_with_Plugins.unitypackage) which provides our [`MenuFramework`](https://github.com/sandialabs/MenuFramework) "plugged" into `STTK` for an efficient, ready-to-use menu system; `MenuFramework` relies on the [Microsoft Mixed Reality Toolkit (MRTK)](https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/?view=mrtkunity-2021-05). 
+Please see our provided [STTK with Plugins Package](https://github.com/sandialabs/STTK/blob/STTK-V1-with-Plugins/STTK_V1_with_Plugins.unitypackage) which provides our [`MenuFramework`](https://github.com/sandialabs/MenuFramework) "plugged" into `STTK` for an efficient, ready-to-use menu system; `MenuFramework` relies on the [Microsoft Mixed Reality Toolkit (MRTK)](https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/?view=mrtkunity-2021-05). 
 
 <br>
 
